@@ -1,5 +1,6 @@
 # Luis_Ricardo_DataScience_Files
-DATA SCIENCE APPROACH
+#DATA SCIENCE APPROACH
+
 A importância da classificação de supernovas se dá por muitos fatores. A classificação de supernovas de tipo Ia é objeto de diversas pesquisas e aplicações referentes a cosmologia e ao entendimento sobre como o universo se expande.
 De maneira fundamental, supernovas são explosões estelares que destroem completamente as estrelas e podem ser causadas pelo colapso gravitacional em estrelas massivas e por reações de acréscimo de massa em anãs brancas que desencadeiam explosões termonucleares de proporções extremas. As supernovas formadas por reações termonucleares em anãs brancas são o foco de diversos estudos e são denominadas supernovas Ia.
 A expansão acelerada do universo foi constatada pela observação das supernovas de Tipo Ia como sendo pontos de luminosidade com intensidades bem definidas formadas por estrelas anãs brancas (compostas em essência de Carbono e Oxigênio em condições degeneradas). Esta abordagem rendeu o prêmio Nobel de física para os astrônomos Saul Perlmutter (PERLMUTTER et al., 1999), Adam G. Riess e Brian P. Schmidt (RIESS et al., 1998).
