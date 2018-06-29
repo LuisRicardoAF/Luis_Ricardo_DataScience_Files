@@ -1,4 +1,5 @@
-# Luis_Ricardo_DataScience_Files
+# Escopo da Disciplina de Introdução a Data Science
+## Aluno: Luis Ricardo Arantes Filho - Doutorando CAP INPE
 
 # DATA SCIENCE APPROACH
 
@@ -31,7 +32,7 @@ Os dados a serem utilizados são de acesso gratuito e definidos na tabela 1. Est
 <p align="center"> Tabela 1 – Identificação de dados </p>
 
 <p align="center">
-<img width="460" height="300" src="https://github.com/LuisRicardoAF/Luis_Ricardo_DataScience_Files/blob/master/dados.png">
+<img src="https://github.com/LuisRicardoAF/Luis_Ricardo_DataScience_Files/blob/master/dados.png">
 </p>
 
 ## Resultados Esperados
