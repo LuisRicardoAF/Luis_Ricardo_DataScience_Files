@@ -28,6 +28,12 @@ Tabela 1 – Identificação de dados
 
 Espera-se com a avaliação e organização dos dados de fase espectral aplicando as diversas atividades da disciplina de introdução a DataScience gerar um esquema de classificação seguro que permita avaliar supernovas fora da faixa de dias da luminosidade máxima. Outro ponto importante nesta abordagem é verificar o comportamento das supernovas Ia em cada uma de suas fases de forma a identificar se determinado perfil do espectro dura mais dias em algumas supernovas do que em outras e se o espectro indica se elas evoluem de maneira parecida. Neste sentido, seria possível identificar se o perfil de supernova Ia no brilho máximo dura mais ou menos dias de supernova para supernova.
 
+A figura 1 ilustra a forma como se pretende aplicar a abordagem da divisão de espectros por fases para gerar um agrupamento e classficação dos dados.
+
+![alt text](https://github.com/LuisRicardoAF/Luis_Ricardo_DataScience_Files/blob/master/fasesAnalysis.png)
+Fonte: Sandelli (2016)
+
+
 ## Referências
 
 •	PERLMUTTER, S. et al. 1999. Measurements of omega and lambda from 42 high-redshift supernovae. The Astrophysical Journal, v. 517, n. 2, p. 565, 1999.
@@ -41,4 +47,7 @@ Espera-se com a avaliação e organização dos dados de fase espectral aplicand
 •	MATHESON, T. et al. Optical spectroscopy of Type Ia supernovae. The Astronomical Journal, v. 135, n. 4, p. 1598, 2008.
 
 •	MODJAZ, M. et al. Optical spectra of 73 stripped-envelope core-collapse supernovae. The Astronomical Journal, v. 147, n. 5, p. 99, 2014.
+
+• SASDELLI, M.; ISHIDA, E. E. O.; VILALTA, R.; AGUENA, M.; BUSTI, V. C.; CAMACHO, H.; TRINDADE, A. M. M.; GIESEKE, F.; SOUZA, R. S. de;
+FANTAYE, Y. T.; MAZZALI, P. A. Exploring the spectroscopic diversity of type ia supernovae with dracula: a machine learning approach. Monthly Notices of the Royal Astronomical Society, v. 461, n. 2, p. 2044–2059, 2016. 20, 21
 
