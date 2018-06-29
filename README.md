@@ -12,7 +12,15 @@ A expansão acelerada do universo foi constatada pela observação das supernova
 
 O entendimento computacional sobre este fenômeno reside na capacidade de análise e interpretação dos dados de supernovas coletados. A tarefa de avaliar e analisar os dados referentes às curvas de luz e aos espectros é estritamente dependente da especialidade de um astrônomo, entretanto executar esta tarefa de maneira prática e consistente é difícil devido à complexidade e a grande quantidade de dados gerados.
 
-A análise espectral de supernovas tem sua importância, pois o espectro é o primeiro tipo de informação que se obtém da observação de uma explosão de supernova. Esta análise permite avaliar os tipos de supernovas de colapso de núcleo e termonucleares (tipo Ia) em um curto espaço de dias. Este curto período é referente ao pico de luminosidade máxima da explosão observada, fora deste período as características dos espectros mudam completamente, sendo difícil sua classificação e análise.
+A análise espectral de supernovas tem sua importância, pois o espectro é o primeiro tipo de informação que se obtém da observação de uma explosão de supernova. Esta análise permite avaliar os tipos de supernovas de colapso de núcleo e termonucleares (tipo Ia) em um curto espaço de dias. Este curto período é referente ao pico de luminosidade máxima da explosão observada, fora deste período as características dos espectros mudam completamente, sendo difícil sua classificação e análise. A figura 1 ilustra como os espectros sofrem alterações importantes tornando a tarefa de classificação espectral dificil no decorrer dos dias. O ponto indicado como 0 dia é o ponto em que a supernova atinge sua luminosidade máxima.
+
+<p align="center"> Figura 1 - Fases espectrais de uma supernova de tipo Ia</p>
+
+<p align="center">
+<img width="460" height="300" src="https://github.com/LuisRicardoAF/Luis_Ricardo_DataScience_Files/blob/master/phase.png">
+</p>
+
+<p align="center"> Fonte: Blondin (2012)</p>
 
 Desta maneira se propõe uma abordagem que possa analisar e avaliar os espectros de supernovas antes e depois do pico de luminosidade máxima para que se possa gerar modelos de classificação que correlacionem estas fases com o tipo de supernovas. Desta maneira é possível avaliar supernovas de tipo Ia pelo espectro antes da luminosidade máxima e nas fases finais quando o brilho é mais fraco, permitindo ampliar as condições de contorno da classificação espectral de supernovas.
 
@@ -20,19 +28,24 @@ Desta maneira se propõe uma abordagem que possa analisar e avaliar os espectros
 
 Os dados a serem utilizados são de acesso gratuito e definidos na tabela 1. Estes dados compreendem espectros de supernovas de diversos tipos de supernovas estando em diversas fases de observação. Os dados são dispostos em arquivos no formato ascii com as colunas para o comprimento de onda em [Å] e o fluxo de radiação em [1e-15 erg/s/cm2/A]. As fases de cada espectro também estão disponíveis nos arquivos de publicação dos espectros.
 
-Tabela 1 – Identificação de dados
+<p align="center"> Tabela 1 – Identificação de dados </p>
 
-![alt text](https://github.com/LuisRicardoAF/Luis_Ricardo_DataScience_Files/blob/master/dados.png)
+<p align="center">
+<img width="460" height="300" src="https://github.com/LuisRicardoAF/Luis_Ricardo_DataScience_Files/blob/master/dados.png">
+</p>
 
 ## Resultados Esperados
 
 Espera-se com a avaliação e organização dos dados de fase espectral aplicando as diversas atividades da disciplina de introdução a DataScience gerar um esquema de classificação seguro que permita avaliar supernovas fora da faixa de dias da luminosidade máxima. Outro ponto importante nesta abordagem é verificar o comportamento das supernovas Ia em cada uma de suas fases de forma a identificar se determinado perfil do espectro dura mais dias em algumas supernovas do que em outras e se o espectro indica se elas evoluem de maneira parecida. Neste sentido, seria possível identificar se o perfil de supernova Ia no brilho máximo dura mais ou menos dias de supernova para supernova.
 
-A figura 1 ilustra a forma como se pretende aplicar a abordagem da divisão de espectros por fases para gerar um agrupamento e classficação dos dados.
+A figura 2 ilustra a forma como se pretende aplicar a abordagem da divisão de espectros por fases para gerar um agrupamento e classficação dos dados.
+
+<p align="center"> Figura 2 - Resultados para separação e classificação das fases de uma supernova Ia</p>
 <p align="center">
 <img width="460" height="300" src="https://github.com/LuisRicardoAF/Luis_Ricardo_DataScience_Files/blob/master/fasesAnalysis.png">
 </p>
-Fonte: Sandelli (2016)
+
+<p align="center"> Fonte: Sandelli (2016)</p>
 
 
 ## Referências
