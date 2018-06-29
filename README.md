@@ -15,7 +15,7 @@ Desta maneira se propõe uma abordagem que possa analisar e avaliar os espectros
 Os dados a serem utilizados são de acesso gratuito e definidos na tabela 1. Estes dados compreendem espectros de supernovas de diversos tipos de supernovas estando em diversas fases de observação. Os dados são dispostos em arquivos no formato ascii com as colunas para o comprimento de onda em [Å] e o fluxo de radiação em [1e-15 erg/s/cm2/A]. As fases de cada espectro também estão disponíveis nos arquivos de publicação dos espectros.
 
 Tabela 1 – Identificação de dados
-![alt text](https://raw.githubusercontent.com/username/projectname/branch/path/to/img.png)
+![alt text](https://raw.githubusercontent.com/username/projectname/branch/path/to/dados.png)
 
 Espera-se com a avaliação e organização dos dados de fase espectral aplicando as diversas atividades da disciplina de introdução a DataScience gerar um esquema de classificação seguro que permita avaliar supernovas fora da faixa de dias da luminosidade máxima. Outro ponto importante nesta abordagem é verificar o comportamento das supernovas Ia em cada uma de suas fases de forma a identificar se determinado perfil do espectro dura mais dias em algumas supernovas do que em outras e se o espectro indica se elas evoluem de maneira parecida. Neste sentido, seria possível identificar se o perfil de supernova Ia no brilho máximo dura mais ou menos dias de supernova para supernova.
 
