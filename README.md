@@ -18,7 +18,7 @@ A análise espectral de supernovas tem sua importância, pois o espectro é o pr
 <p align="center"> Figura 1 - Fases espectrais de uma supernova de tipo Ia</p>
 
 <p align="center">
-<img width="460" height="300" src="https://github.com/LuisRicardoAF/Luis_Ricardo_DataScience_Files/blob/master/phase.png">
+<img width="460" height="300" src="https://github.com/LuisRicardoAF/Luis_Ricardo_DataScience_Files/blob/master/phases.png">
 </p>
 
 <p align="center"> Fonte: Blondin (2012)</p>
