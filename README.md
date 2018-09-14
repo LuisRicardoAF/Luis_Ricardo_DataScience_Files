@@ -104,14 +104,14 @@ A tabela 3 ilustra testes de classificadores diversos e seus desempenhos em sepa
 <img width="460" height="300" src="https://github.com/LuisRicardoAF/Luis_Ricardo_DataScience_Files/blob/master/tabela3.png">
 </p>
 
-OS resultados gerados pelo método de Random Forest são superiores à outras tecnicas de classificação, este algoritmo separou melhor os dados não lineares e desta forma foi o mais eficiente. A tabela 4 indica a matriz de confusão para a classificação por random forest.
+Os resultados gerados pelo método de Random Forest são superiores à outras tecnicas de classificação, este algoritmo separou melhor os dados não lineares e desta forma foi o mais eficiente. A tabela 4 indica a matriz de confusão para a classificação por random forest.
 
 <p align="center"> Tabela 4 - Resultados de Classificação pelo Random Forest</p>
 <p align="center">
 <img width="460" height="300" src="https://github.com/LuisRicardoAF/Luis_Ricardo_DataScience_Files/blob/master/matriz1.png">
 </p>
 
-Random Forest é um algoritmo de aprendizagem de máquina flexível e fácil de usar que produz excelentes resultados a maioria das vezes, mesmo sem ajuste de hiperparâmetros. É também um dos algoritmos mais utilizados, devido à sua simplicidade e o fato de que pode ser utilizado para tarefas de classificação e também de regressão. As árvores de decisão são excelentes preditores. No entanto, podem apresentar alguma dificuldade, pois nem sempre generalizam bem. É essa a razão pela qual em CART, por exemplo, se executa a poda (pruning) da árvore, que fica menor e mais generalizável. A figura 6 ilustra como os dados são classificados.
+Random Forest é um algoritmo de aprendizagem de máquina flexível e fácil de usar que produz excelentes resultados a maioria das vezes, mesmo sem ajuste de hiperparâmetros. É também um dos algoritmos mais utilizados, devido à sua simplicidade e o fato de que pode ser utilizado para tarefas de classificação e também de regressão. As árvores de decisão são excelentes preditores. No entanto, podem apresentar alguma dificuldade, pois nem sempre generalizam bem. A figura 6 ilustra como os dados são classificados.
 
 <p align="center"> Figura 6  - Random Forest</p>
 <p align="center">
@@ -122,7 +122,12 @@ Random Forest é um algoritmo de aprendizagem de máquina flexível e fácil de 
 
 A abordagem gerada pelo Random Forest indica resultados expressivos, entretanto o encapsulamento da ferramenta prejudica uma anáise profunda do caso e desta forma este resultado não pode ser avaliado completamente.
 
-Em contrapartida, os resultados gerados pelo agrupamento pelo algoritmo DBscan revela uma separação de perfis de fases espectrais de supernovas melhor do que o algoritmo K-means. Desta forma com o agrupamento gerado de maneira não supervisionada é possivel aplicar os classificadores como perceptrons e regressoes e gerar classificações e análises mais seguras.
+Em contrapartida, os resultados gerados pelo agrupamento com o algoritmo DBscan revela uma separação de perfis de fases espectrais de supernovas melhor do que o algoritmo K-means. A avaliação dos grupos gerados com o DBscan apresentam contribuição no que diz respeito a separar as fases espectrais de maneira mais homogênea identificando perfis homogêneos para cada fase. Desta forma, com o agrupamento gerado de maneira não supervisionada é possivel aplicar os classificadores como perceptrons e regressoes e gerar classificações e análises mais seguras. A figura 7 ilustra os agrupamentos gerados, nestes agrupamentos é possivel correlacinar as fases espectrais e como as explosões de supernovas se comportam no decorrer do tempo.
+
+<p align="center"> Figura 7  - Random Forest</p>
+<p align="center">
+<img width="460" height="300" src="https://github.com/LuisRicardoAF/Luis_Ricardo_DataScience_Files/blob/master/clusters.png">
+</p>
 
 Devido à abordagem proporcionada este modelo inicial cumpre os requisitos solicitados em relação à geração de uma estrutura computacional, para análise científica de dados. Espera-se que com o aprimoramento deste modelo inicial seja possível identificar com acurácia e precisão elevada as fases espectrais de supernovas para que tomadas de decisão sejam feitas em tempo reduzido permitindo a otimização e melhor desempenho do processo. 
 
