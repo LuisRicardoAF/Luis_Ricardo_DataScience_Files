@@ -84,6 +84,28 @@ A distribuição de fases nas bases de dados de supernovas de tipo Ia é mostrad
 
 A distribuição dos redshifts das supernovas Ia é mostrada na figura 4. Esta informação é importante pois revela a quantidade de supernovas Ia nas regioes próximas e a quantidade de supernovas Ia capturadas pelos telescópios em regioes mais distantes no universo. Este é um dos fatores que implicam nas correlações de supernovas de tipo Ia como medidas da expansão cósmica acelerada.
 
+<p align="center"> Figura 4 - Distribuição de Redshifts</p>
+<p align="center">
+<img width="460" height="300" src="https://github.com/LuisRicardoAF/Luis_Ricardo_DataScience_Files/blob/master/dist_red.png">
+</p>
+
+As vizualizações das variaveis de componentes principais (PCA) realizadas nos notebooks indicam uma homogenedade nos dados e uma não-lineariedade elevada. Desta forma é possivel, antes de implementar qualquer medida de classificação eliminar algumas alternativas, ou seja, a vizualização dos dados implica na ineficiencia prévia de classificadores lineares e regressoes. A figura 5 ilustra uma estrutura gerada em orange para gerar testes em algoritmos de classificação com eficiência.
+
+
+<p align="center"> Figura 4 - Distribuição de Redshifts</p>
+<p align="center">
+<img width="460" height="300" src="https://github.com/LuisRicardoAF/Luis_Ricardo_DataScience_Files/blob/master/dist_red.png">
+</p>
+
+
+A tabela 3 ilustra testes de classificadores diversos e seus desempenhos em separar pelos componentes principais (PCA) dos dataframes as fases espectrais de supernovas.
+
+<p align="center"> Tabela 3 - Resultados de Classificação de fases espectrais</p>
+<p align="center">
+<img width="460" height="300" src="https://github.com/LuisRicardoAF/Luis_Ricardo_DataScience_Files/blob/master/tabela3.png">
+</p>
+
+OS resultados gerados pelo método de Random Forest são superiores à outras tecnicas de classificação, este algoritmo separou melhor os dados não lineares e desta forma foi o mais eficientes. A tabela 4 indica a matriz de confusão para a classificação por random forest.
 
 
 ## Referências
@@ -102,4 +124,3 @@ A distribuição dos redshifts das supernovas Ia é mostrada na figura 4. Esta i
 
 • SASDELLI, M.; ISHIDA, E. E. O.; VILALTA, R.; AGUENA, M.; BUSTI, V. C.; CAMACHO, H.; TRINDADE, A. M. M.; GIESEKE, F.; SOUZA, R. S. de;
 FANTAYE, Y. T.; MAZZALI, P. A. Exploring the spectroscopic diversity of type ia supernovae with dracula: a machine learning approach. Monthly Notices of the Royal Astronomical Society, v. 461, n. 2, p. 2044–2059, 2016. 20, 21
-
