@@ -48,6 +48,43 @@ A figura 2 ilustra a forma como se pretende aplicar a abordagem da divisão de e
 
 <p align="center"> Fonte: Sandelli (2016)</p>
 
+## Resultados Obtidos
+
+Os resultados obtidos encontram-se nos notebooks python.
+
+O notebook "Manipulando Dados Brutos de Supernovas" ilustra como os dados de arquivo texto são tratados e transformados em objetos do tipo DataFrame para melhor organização das tabelas e das informações.
+
+O notebook "Análise Estatistica de Dados" revela instruções básicas para geração de informaçoes em gráficos de barras, histogramas, box-plots e scatter plots sobre cada informação dos dataframes. Em cada um dos notebooks gerados neste trabalho existe um tratamento estatistico e como as informações foram interpretadas.
+
+O notebook "Extraindo Atributos dos DataFrames" ilustra como são extraidos os atributos de componentes principais dos dataFrames gerados no notebook anterior. São gerados os componentes principais (PCA) das informações de larguras e intensidades das linhas espectrais, bem como dos valores de comprimento de onda e de fluxo de radiação de cada espectro de supernova.
+
+O notebook "Agrupamento de dados K-means" introduz o algoritmo k-means para o agrupamento das informações dos componentes principais dos espectros. Este notebook revela o agrupamento de cada fase de supernova e também ilustra como os dados foram agrupados, neste caso o algoritmo demonstrou ineficiencia ao gerar grupos com muitos exemplos parecidos, isto mostra que o agrupamento não conseguiu separar corretamente as peculiaridades de cada fase espectral de supernova.
+
+O notebook "Agrupamento de dados DBscan" revela uma alternativa bem sucedida ao algoritmo anterior. O agrupamento pelo DBscan revela uma boa separação das supernovas em 8 grupos diferentes com uma homogeneadade de fase para fase indicando os perfis das supernovas Ia no decorrer do tempo.
+
+## Experiência com a Ferramenta orange
+
+A ferramenta orange é baseada em programação visual e permite manipular bases de dados, fazer transformações e pré-processamento, visualizar os dados de forma interativa, executar e avaliar algoritmos de Machine Learning apenas com widgets e metodos encapsulados. Desta maneira a pericia de um programador ou de um cientista de dados não um fator determinante para gerar vizualizações e análises cientificas.
+
+Neste trabalho a ferramenta orange foi desenvolvida para gerar uma bateria de testes eficiente e em tempo reduzido, inidcando quais ferramentas e caminhos produziriam uma estimativa melhor para a separação de fases de supernovas. Todos os dataFrames gerados neste trabalho foram submetidos a testes gerados pelo Orange para gerar uma estimativa preliminar de sucesso ou insucesso em tecnicas de machine learning.
+
+As fases de supernova foram separadas seguindo o criterio de dias de acordo com a tabela 2.
+
+<p align="center"> Tabela 2 - Separação de fases para supernovas Ia</p>
+<p align="center">
+<img width="460" height="300" src="https://github.com/LuisRicardoAF/Luis_Ricardo_DataScience_Files/blob/master/tabela2.png">
+</p>
+
+A distribuição de fases nas bases de dados de supernovas de tipo Ia é mostrada na figura 3.
+
+<p align="center"> Figura 3 - Distribuição de Fases</p>
+<p align="center">
+<img width="460" height="300" src="https://github.com/LuisRicardoAF/Luis_Ricardo_DataScience_Files/blob/master/dist_fases.png">
+</p>
+
+A distribuição dos redshifts das supernovas Ia é mostrada na figura 4. Esta informação é importante pois revela a quantidade de supernovas Ia nas regioes próximas e a quantidade de supernovas Ia capturadas pelos telescópios em regioes mais distantes no universo. Este é um dos fatores que implicam nas correlações de supernovas de tipo Ia como medidas da expansão cósmica acelerada.
+
+
 
 ## Referências
 
