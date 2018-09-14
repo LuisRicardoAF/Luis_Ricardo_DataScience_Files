@@ -1,4 +1,4 @@
-# Escopo da Disciplina de Introdução a Data Science
+# Trabalho Final da Disciplina de Introdução a Data Science
 ## Aluno: Luis Ricardo Arantes Filho - Doutorando CAP INPE
 
 # Classificação de Fases Espectrais em Supernovas do Tipo Ia
