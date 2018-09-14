@@ -92,11 +92,10 @@ A distribuição dos redshifts das supernovas Ia é mostrada na figura 4. Esta i
 As vizualizações das variaveis de componentes principais (PCA) realizadas nos notebooks indicam uma homogenedade nos dados e uma não-lineariedade elevada. Desta forma é possivel, antes de implementar qualquer medida de classificação eliminar algumas alternativas, ou seja, a vizualização dos dados implica na ineficiencia prévia de classificadores lineares e regressoes. A figura 5 ilustra uma estrutura gerada em orange para gerar testes em algoritmos de classificação com eficiência.
 
 
-<p align="center"> Figura 4 - Distribuição de Redshifts</p>
+<p align="center"> Figura 5 - Estrutura Orange para aprendizado de máquina</p>
 <p align="center">
-<img width="460" height="300" src="https://github.com/LuisRicardoAF/Luis_Ricardo_DataScience_Files/blob/master/dist_red.png">
+<img width="600" height="600" src="https://github.com/LuisRicardoAF/Luis_Ricardo_DataScience_Files/blob/master/orange.png">
 </p>
-
 
 A tabela 3 ilustra testes de classificadores diversos e seus desempenhos em separar pelos componentes principais (PCA) dos dataframes as fases espectrais de supernovas.
 
@@ -105,7 +104,30 @@ A tabela 3 ilustra testes de classificadores diversos e seus desempenhos em sepa
 <img width="460" height="300" src="https://github.com/LuisRicardoAF/Luis_Ricardo_DataScience_Files/blob/master/tabela3.png">
 </p>
 
-OS resultados gerados pelo método de Random Forest são superiores à outras tecnicas de classificação, este algoritmo separou melhor os dados não lineares e desta forma foi o mais eficientes. A tabela 4 indica a matriz de confusão para a classificação por random forest.
+OS resultados gerados pelo método de Random Forest são superiores à outras tecnicas de classificação, este algoritmo separou melhor os dados não lineares e desta forma foi o mais eficiente. A tabela 4 indica a matriz de confusão para a classificação por random forest.
+
+<p align="center"> Tabela 4 - Resultados de Classificação pelo Random Forest</p>
+<p align="center">
+<img width="460" height="300" src="https://github.com/LuisRicardoAF/Luis_Ricardo_DataScience_Files/blob/master/matriz1.png">
+</p>
+
+Random Forest é um algoritmo de aprendizagem de máquina flexível e fácil de usar que produz excelentes resultados a maioria das vezes, mesmo sem ajuste de hiperparâmetros. É também um dos algoritmos mais utilizados, devido à sua simplicidade e o fato de que pode ser utilizado para tarefas de classificação e também de regressão. As árvores de decisão são excelentes preditores. No entanto, podem apresentar alguma dificuldade, pois nem sempre generalizam bem. É essa a razão pela qual em CART, por exemplo, se executa a poda (pruning) da árvore, que fica menor e mais generalizável. A figura 6 ilustra como os dados são classificados.
+
+<p align="center"> Figura 6  - Random Forest</p>
+<p align="center">
+<img width="460" height="300" src="https://github.com/LuisRicardoAF/Luis_Ricardo_DataScience_Files/blob/master/arv.png">
+</p>
+
+## Conclusões e Discussões sobre as abordagens
+
+A abordagem gerada pelo Random Forest indica resultados expressivos, entretanto o encapsulamento da ferramenta prejudica uma anáise profunda do caso e desta forma este resultado não pode ser avaliado completamente.
+
+Em contrapartida, os resultados gerados pelo agrupamento pelo algoritmo DBscan revela uma separação de perfis de fases espectrais de supernovas melhor do que o algoritmo K-means. Desta forma com o agrupamento gerado de maneira não supervisionada é possivel aplicar os classificadores como perceptrons e regressoes e gerar classificações e análises mais seguras.
+
+Devido à abordagem proporcionada este modelo inicial cumpre os requisitos solicitados em relação à geração de uma estrutura computacional, para análise científica de dados. Espera-se que com o aprimoramento deste modelo inicial seja possível identificar com acurácia e precisão elevada as fases espectrais de supernovas para que tomadas de decisão sejam feitas em tempo reduzido permitindo a otimização e melhor desempenho do processo. 
+
+Espera-se que com esta abordagem inicial gerada na Disciplina de Introdução à Data Science a pesquisa proposta para classificação de fases espectrais em supernovas seja feita em um caminho seguro, pois a disciplina propiciou artificios em relação à estatistica, vizualização e manipulação de informações que permitem o desenvolvimento científico em alto nível.
+
 
 
 ## Referências
