@@ -124,7 +124,7 @@ A abordagem gerada pelo Random Forest indica resultados expressivos, entretanto 
 
 Em contrapartida, os resultados gerados pelo agrupamento com o algoritmo DBscan revela uma separação de perfis de fases espectrais de supernovas melhor do que o algoritmo K-means. A avaliação dos grupos gerados com o DBscan apresentam contribuição no que diz respeito a separar as fases espectrais de maneira mais homogênea identificando perfis homogêneos para cada fase. Desta forma, com o agrupamento gerado de maneira não supervisionada é possivel aplicar os classificadores como perceptrons e regressoes e gerar classificações e análises mais seguras. A figura 7 ilustra os agrupamentos gerados, nestes agrupamentos é possivel correlacinar as fases espectrais e como as explosões de supernovas se comportam no decorrer do tempo.
 
-<p align="center"> Figura 7  - Random Forest</p>
+<p align="center"> Figura 7  - Agrupamento pelo algoritmo DBscan </p>
 <p align="center">
 <img width="460" height="300" src="https://github.com/LuisRicardoAF/Luis_Ricardo_DataScience_Files/blob/master/clusters.png">
 </p>
