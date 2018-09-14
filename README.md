@@ -1,7 +1,7 @@
 # Escopo da Disciplina de Introdução a Data Science
 ## Aluno: Luis Ricardo Arantes Filho - Doutorando CAP INPE
 
-# DATA SCIENCE APPROACH
+# Classificação de Fases Espectrais em Supernovas do Tipo Ia
 
 ## Introdução
 A importância da classificação de supernovas se dá por muitos fatores. A classificação de supernovas de tipo Ia é objeto de diversas pesquisas e aplicações referentes a cosmologia e ao entendimento sobre como o universo se expande.
